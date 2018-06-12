@@ -4,9 +4,21 @@
     <title>Sample</title>
     <meta charset="utf-8">
     <style>
+    #pop{
+      font-style:italic;
+      background-color:blue;
+    }
     h2{
+      background-color:black;
       color:purple;
       font-style:bold;
+    }
+    a{
+      font-size:2em;
+      font-style:italic;
+    }
+    .band{
+      border-radius:20px;
     }
     </style>
   </head>
@@ -16,7 +28,7 @@
       <h1>70s Bands</h1>
     </header>
 
-    <div>
+    <div id="pop">
       <h2>Most Popular</h2>
         <a href="https://www.besteveralbums.com/bandstats.php?l=0&showchildren=0&y=197&d=197&page=1"
         target="_blank">
@@ -33,9 +45,9 @@
       </tr>
 
       <tr>
-        <td><img src="images/pink-floyd-by-murciano.jpg" alt="colorful artwork depicting Pink Floyd" height="300px"></td>
-        <td><img src="images/gratefuldead-640x440.jpg" alt="signature Grateful Dead skull & roses" width="400px"></td>
-        <td><img src="images/sire.jpg" alt="photo of Talking Heads members in outlandish outfits" width="400px"></td>
+        <td><img class="band" src="images/pink-floyd-by-murciano.jpg" alt="colorful artwork depicting Pink Floyd" height="300px"></td>
+        <td><img class="band" src="images/gratefuldead-640x440.jpg" alt="signature Grateful Dead skull & roses" width="400px"></td>
+        <td><img class="band" src="images/sire.jpg" alt="photo of Talking Heads members in outlandish outfits" width="400px"></td>
       </tr>
 
       <tr>
